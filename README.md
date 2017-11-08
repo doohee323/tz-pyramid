@@ -1,7 +1,8 @@
-# tzpyramid
-
-tzpyramid
+Pyramid framework example application 
 ========
+
+Getting Started
+---------------
 
 ```
 export VENV=~/env
@@ -10,9 +11,6 @@ $VENV/bin/pip install "pyramid==1.9.1"
 brew install cookiecutter
 cookiecutter gh:Pylons/pyramid-cookiecutter-starter --checkout 1.9-branch
 ```
-
-Getting Started
----------------
 
 - Change directory into your newly created project.
 
