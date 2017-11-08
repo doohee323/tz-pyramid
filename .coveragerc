@@ -1,0 +1,3 @@
+[run]
+source = tzpyramid
+omit = tzpyramid/test*
