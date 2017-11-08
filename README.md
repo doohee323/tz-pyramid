@@ -3,11 +3,13 @@
 tzpyramid
 ========
 
+```
 export VENV=~/env
 python3 -m venv $VENV
 $VENV/bin/pip install "pyramid==1.9.1"
 brew install cookiecutter
 cookiecutter gh:Pylons/pyramid-cookiecutter-starter --checkout 1.9-branch
+```
 
 Getting Started
 ---------------
@@ -37,10 +39,15 @@ Getting Started
     env/bin/pserve development.ini
     
 - in Eclipse
+```
 	add /tzpyramid/env/lib/python3.4/site-packages in PYTHONPATH
 	run /tzpyramid/env/bin/pserve /Users/dhong/Documents/workspace/python/tzpyramid/development.ini
+```
     
 - Test
+```
 	http://localhost:6543
 	http://localhost:6543/home2
 	http://localhost:6543/rest
+```
+	
