@@ -47,9 +47,5 @@ cookiecutter gh:Pylons/pyramid-cookiecutter-starter --checkout 1.9-branch
 	http://localhost:6543
 	http://localhost:6543/home2
 	http://localhost:6543/rest
-	
-	* PyTest env.
-	vi ~/tz_pyramid/ui/tests/README.md
-	
 ```
 	

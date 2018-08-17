@@ -1,0 +1,14 @@
+x Can create instance of Checkout Class
+x Can add item price
+x Can add an item
+x Can calculate the current total
+x Can add multiple items and get the correct total
+x Can add discount rules
+x Can apply discount rules to the total
+x Execption is throw for item added without a price
+
+- Can call readPriceFile
+- readPricesFile reads from file and loads prices successfully
+
+cd tests/checkout>
+pytest -vs

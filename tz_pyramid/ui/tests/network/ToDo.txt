@@ -1,0 +1,2 @@
+- Can call getURL
+- getURL calls HTTP correctly and returns correct response

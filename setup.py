@@ -23,9 +23,9 @@ tests_require = [
 ]
 
 setup(
-    name='tzpyramid',
+    name='tz_pyramid',
     version='0.0',
-    description='tzpyramid',
+    description='tz_pyramid',
     long_description=README + '\n\n' + CHANGES,
     classifiers=[
         'Programming Language :: Python',
@@ -37,7 +37,7 @@ setup(
     author_email='',
     url='',
     keywords='web pyramid pylons',
-    packages=find_packages(),
+    packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     include_package_data=True,
     zip_safe=False,
     extras_require={
@@ -46,7 +46,7 @@ setup(
     install_requires=requires,
     entry_points={
         'paste.app_factory': [
-            'main = tzpyramid:main',
+            'main = tz_pyramid:main',
         ],
     },
 )

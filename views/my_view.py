@@ -8,5 +8,5 @@ from pyramid.response import Response
 #         permission='read',
 #         renderer='templates/mytemplate2.jinja2')
 def my_view(request):
-    return {'project': 'tzpyramid22'}
+    return {'project': 'tz_pyramid22'}
 
